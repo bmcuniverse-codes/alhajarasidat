@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#7d2e52" />
+  <meta name="description" content="Rasidat Fasola Babalola's 70th Birthday Celebration — September 26, 2026." />
+  <title>Rasidat Fasola Babalola — 70th Birthday Celebration</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-glow page-glow-one"></div>
+  <div class="page-glow page-glow-two"></div>
+
+  <header class="topbar">
+    <div class="brand-mark">RFB</div>
+    <span>70 Years of Grace</span>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="confetti confetti-left">〰</div>
+      <div class="confetti confetti-right">〰</div>
+
+      <p class="eyebrow">YOU'RE INVITED TO</p>
+      <p class="script-name">Mama</p>
+      <h1>RASIDAT FASOLA<br>BABALOLA'S</h1>
+
+      <div class="hero-art">
+        <div class="seventy">70</div>
+        <div class="portrait-wrap">
+          <img src="assets/celebrant.png" alt="Portrait of Rasidat Fasola Babalola" />
+        </div>
+        <span class="th">TH</span>
+      </div>
+
+      <p class="celebration">BIRTHDAY CELEBRATION</p>
+      <p class="intro">
+        Family, friends, well-wishers and loved ones are invited to join this special celebration
+        in person or from wherever you are through the live stream.
+      </p>
+    </section>
+
+    <section class="countdown-card section" aria-labelledby="countdown-title">
+      <p class="section-kicker">THE CELEBRATION BEGINS IN</p>
+      <h2 id="countdown-title">Saturday, 26 September 2026 · 1:00 PM</h2>
+      <p class="timezone">Lagos Time (GMT+1)</p>
+
+      <div class="countdown" id="countdown" aria-live="polite">
+        <div class="time-box"><strong id="days">00</strong><span>Days</span></div>
+        <div class="colon">:</div>
+        <div class="time-box"><strong id="hours">00</strong><span>Hours</span></div>
+        <div class="colon">:</div>
+        <div class="time-box"><strong id="minutes">00</strong><span>Minutes</span></div>
+        <div class="colon">:</div>
+        <div class="time-box"><strong id="seconds">00</strong><span>Seconds</span></div>
+      </div>
+
+      <button id="watchButton" class="watch-button" type="button" disabled>
+        <span class="live-dot"></span>
+        <span id="watchLabel">Watch Now — Available at 1:00 PM</span>
+      </button>
+      <p id="watchNote" class="watch-note">The live stream opens automatically when the countdown reaches zero.</p>
+    </section>
+
+    <section class="details section">
+      <div class="section-heading">
+        <p class="section-kicker">CELEBRATING</p>
+        <h2>70 Beautiful Years</h2>
+      </div>
+
+      <div class="celebrant-card">
+        <div class="portrait-small">
+          <img src="assets/celebrant.png" alt="Rasidat Fasola Babalola" />
+        </div>
+        <div>
+          <p class="small-label">THE CELEBRANT</p>
+          <h3>Rasidat Fasola Babalola</h3>
+          <p>
+            A milestone birthday celebration surrounded by family, friends, well-wishers
+            and everyone who holds her dear.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="event section">
+      <div class="event-grid">
+        <div class="event-item">
+          <span class="event-icon">✦</span>
+          <p class="small-label">DATE & TIME</p>
+          <h3>26 September 2026</h3>
+          <p>1:00 PM · GMT+1</p>
+        </div>
+        <div class="event-item">
+          <span class="event-icon">⌖</span>
+          <p class="small-label">VENUE</p>
+          <h3>The City Club Marquee</h3>
+          <p>28, Raufu Williams Crescent, Off Adisa Bashua Street, Surulere, Lagos</p>
+        </div>
+        <div class="event-item">
+          <span class="event-icon">✧</span>
+          <p class="small-label">DRESS COLOUR</p>
+          <h3>Green</h3>
+          <p>Strictly by invitation</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="invitation-preview section">
+      <p class="section-kicker">THE INVITATION</p>
+      <img src="assets/invitation.jpg" alt="Original 70th birthday invitation" />
+    </section>
+  </main>
+
+  <footer>
+    <span>With love, family & friends</span>
+    <span>Rasidat Fasola Babalola · 70</span>
+  </footer>
+
+  <div class="modal" id="streamModal" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close">×</button>
+      <p class="section-kicker">LIVE STREAM</p>
+      <h2 id="modalTitle">The celebration is live!</h2>
+      <p id="modalMessage">Add the live-stream URL in <code>script.js</code> before the event.</p>
+      <a id="streamLink" class="modal-link" href="#" target="_blank" rel="noopener" hidden>Open live stream</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
