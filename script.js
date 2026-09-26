@@ -10,7 +10,7 @@
   The Watch Now button will remain locked until:
   Saturday, 26 September 2026 at 1:00 PM GMT+1.
 */
-const WATCH_URL = "PASTE_YOUR_LIVE_STREAM_LINK_HERE";
+const WATCH_URL = "https://www.youtube.com/live/wEBqRuDaKlg?si=ac4YxLKehZNLNxAl";
 
 const EVENT_TIME = new Date("2026-09-26T13:00:00+01:00").getTime();
 
@@ -82,7 +82,7 @@ els.button.addEventListener("click", () => {
   const configured =
     WATCH_URL &&
     WATCH_URL.trim() &&
-    !WATCH_URL.includes("PASTE_YOUR_LIVE_STREAM_LINK_HERE");
+    !WATCH_URL.includes("https://www.youtube.com/live/wEBqRuDaKlg?si=ac4YxLKehZNLNxAl");
 
   if (configured) {
     window.open(WATCH_URL, "_blank", "noopener,noreferrer");
