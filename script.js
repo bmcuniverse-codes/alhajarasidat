@@ -82,7 +82,7 @@ els.button.addEventListener("click", () => {
   const configured =
     WATCH_URL &&
     WATCH_URL.trim() &&
-    !WATCH_URL.includes("https://www.youtube.com/live/wEBqRuDaKlg?si=ac4YxLKehZNLNxAl");
+    !WATCH_URL.includes("httpZNLNxAl");
 
   if (configured) {
     window.open(WATCH_URL, "_blank", "noopener,noreferrer");
